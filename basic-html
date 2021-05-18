@@ -1,0 +1,111 @@
+<table id="menu">
+		<tr>
+          <td class="firstrow"><img src="plant/1.jpg" alt="Money plant" width="200" height="200" border="0" /></td>
+		  <td>&nbsp;</td>
+		  <td class="firstrow"><img src="plant/2.jpg" alt="Japanese bamboo" width="200" height="200" border="0" /></td>
+		  <td>&nbsp;</td>
+		  <td class="firstrow"><img src="plant/3.jpg" alt="Yellow palm" width="200" height="200" border="0" /></td>
+		  <td>&nbsp;</td>
+		  <td class="firstrow"><img src="plant/4.jpg" alt="Bamboo palm" width="200" height="200" border="0" /></td>
+        </tr>
+		<tr>
+          <td class="price" valign="right">
+          	<details>
+          		<summary>Money plant</summary>
+          			<p>cant even produce money</p>
+          	</details>
+          	<br>
+		  	Price: RM90,000.00</td>
+		  <td>&nbsp;</td>
+		   <td class="price">	
+		   	<details>
+          		<summary>Japanese bamboo</summary>
+          			<p>actually this bamboo made in malaysia</p>
+          </details>
+          <br>
+		  Price: RM3,000.00</td>
+		 <td>&nbsp;</td>
+		   <td class="price" >
+		   	<details>
+          		<summary>Yellow palm</summary>
+          			<p>not yellow at all</p>
+          </details>
+          <br>
+		  Price: RM10,000.00</td>
+		 <td>&nbsp;</td>
+		   <td class="price"><details>
+          		<summary>Bamboo palm</summary>
+          			<p>its just bamboo</p>
+          </details>
+          <br>
+		  Price: RM600.00</td>
+        </tr>
+		<tr>
+          <td class="firstrow"><img src="plant/5.jpg" alt="fan plant " width="200" height="200" border="0" /></td>
+		  <td>&nbsp;</td>
+		  <td class="firstrow"><img src="plant/6.jpg" alt="mix shrubs" width="200" height="200" border="0" /></td>
+		  <td>&nbsp;</td>
+		  <td class="firstrow"><img src="plant/7.jpg" alt="aglaonema red" width="200" height="200" border="0" /></td>
+		  <td>&nbsp;</td>
+		  <td class="firstrow"><img src="plant/8.jpg" alt="sansevieria" width="200" height="200" border="0" /></td>
+        </tr>
+		<tr>
+          <td class="price" >
+          	<details>
+          		<summary>Fan plant</summary>
+          			<p>a plant</p>
+          </details>
+          <br>
+		  Price: RM800.00</td>
+		  <td>&nbsp;</td>
+		   <td class="price" >
+		   	<details>
+          		<summary>Mix shrubs</summary>
+          			<p>a plant</p>
+          </details>
+          <br>
+		  Price: RM20,000.00</td>
+		 <td>&nbsp;</td>
+		   <td class="price" >
+		   	<details>
+          		<summary>Aglaonema red</summary>
+          			<p>a plant</p>
+          </details>
+          <br>
+		  Price: RM10,000.00</td>
+		 <td>&nbsp;</td>
+		   <td class="price" >	
+		   	<details>
+          		<summary>Sansevieria</summary>
+          			<p>a plant</p>
+          </details>
+          <br>
+		  Price: RM800.00</td>
+        </tr>
+      </table>
+
+
+#menu{
+  border: 0;
+  width: 100%;
+}
+.firstrow{
+  width: 25%;
+  height: 200;
+}
+.price{
+  color: black;
+  font-size: 15px;
+  font-family: Microsoft YaHei UI Light;
+  vertical-align: top;
+}
+/*plant page*/
+fieldset{
+  color: black;
+  text-align: left;
+}
+legend{
+  font-size: 30px;
+  color: black;
+}
+
