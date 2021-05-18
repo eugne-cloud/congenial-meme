@@ -1,0 +1,253 @@
+<!--STUDENT ID: 0125919
+	STUDENT NAME: LOH EU-GNE
+	FILES: HTML, CSS, JAVA SCRIPT
+-->
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #130602;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #000000 ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav{
+  position: center;
+  overflow: hidden;
+  background-color: #fc8330
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #130602;
+  color: white;
+  position: center;
+  background-color: #86bdfc;
+  color: white;
+}
+
+.topnav .login-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width:120px;
+}
+
+.topnav .login-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background-color: #555;
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .login-container button:hover {
+  background-color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .login-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .login-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+/* Style the body */
+body {
+  font-family: Arial Bold;
+  margin: 0;
+}
+/* Header/Logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #abcf3d;
+  color: black;
+  font-size: 30px;
+}
+
+/* Page Content */
+.content {padding:20px;}
+#menu{
+  border: 0;
+  width: 100%;
+}
+.firstrow{
+  width: 25%;
+  height: 200;
+}
+.price{
+  color: black;
+  font-size: 15px;
+  font-family: Microsoft YaHei UI Light;
+  vertical-align: top;
+}
+/*plant page*/
+fieldset{
+  color: black;
+  text-align: left;
+}
+legend{
+  font-size: 30px;
+  color: black;
+}
+</style>
+</head>
+
+<!-- LOGIN DETAILS-->
+<body>
+<div class="topnav">
+  <div class="login-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Username" name="username">
+      <input type="text" placeholder="Password" name="psw">
+      <button type="#submit">Login</button>
+    </form>
+  </div>
+</div>
+<div class="header">
+  <h1>GreenThumb.Inc</h1>
+  <p>GreenThumb.Inc is a company that sells various types of plants that is fresh and also a great companion to use it as a decor in your lovely home, surf and shop around with affordable prices, grab any of the plants now and Go Green with Us Today !</p>
+</div>
+
+<!--Create a Navigation Bar-->
+<div class="topnav">
+  <a href="home.html">Home</a> 
+  <a class="active" href="plants.html">Plants</a>
+  <a href="order.html">Order</a>
+  <a href="credits.html">Credits</a>
+</div>
+
+<!-- Plants-->
+<table id="menu">
+    <tr>
+      <td class="firstrow"><img src="plant1.jpg" alt="Anthurium" width="200" height="200" border="0" /></td>
+      <td>&nbsp;</td>
+      <td class="firstrow"><img src="plant2.jpg" alt="Japanese bamboo" width="200" height="200" border="0" /></td>
+      <td>&nbsp;</td>
+      <td class="firstrow"><img src="plant3.jpg" alt="Yellow palm" width="200" height="200" border="0" /></td>
+      <td>&nbsp;</td>
+      <td class="firstrow"><img src="plant4.jpg" alt="Bamboo palm" width="200" height="200" border="0" /></td>
+	  <td>&nbsp;</td>
+
+        </tr>
+    <tr>
+          <td class="price" valign="right">
+            <details>
+              <summary>Anthurium</summary>
+			  <p>Size: To 2 - 3 feet high and 2 feet wide
+Growing conditions: Medium to bright light with no direct sun evenly moist soil</p>
+            </details>
+            <br>
+        Price: RM90 | Order No:P01</td>
+      <td>&nbsp;</td>
+       <td class="price"> 
+        <details>
+              <summary>Aloe Vera</summary>
+                <p>Aloe (Aloe spp.), an easy-care succulent, has distinctive elongated leaves that fan out in a vase shape from a central base. Try smaller varieties such as Aloe vera on a sunny kitchen window. </p>
+          </details>
+          <br>
+      Price: RM30 | Order No:P02</td>
+     <td>&nbsp;</td>
+       <td class="price" >
+        <details>
+              <summary>Fern Leaf</summary>
+                <p>Delicate needlelike foliage drapes from this subtropical relative of asparagus, which is not a true fern.</p>
+          </details>
+          <br>
+      Price: RM10 | Order No:P03</td>
+     <td>&nbsp;</td>
+       <td class="price"><details>
+              <summary>Orchid Plant</summary>
+                <p>The easy-care peace lily tolerates low humidity and low light. Its glossy, lance-shape leaves tip arching stems that surround the central flower spikes.</p>
+          </details>
+          <br>
+      Price: RM60 | Order No:P04</td>
+        </tr>
+    <tr>
+          <td class="firstrow"><img src="plant6.jpg" alt="fan plant " width="200" height="200" border="0" /></td>
+      <td>&nbsp;</td>
+      <td class="firstrow"><img src="plant7.jpg" alt="mix shrubs" width="200" height="200" border="0" /></td>
+      <td>&nbsp;</td>
+      <td class="firstrow"><img src="plant8.jpg" alt="aglaonema red" width="200" height="200" border="0" /></td>
+      <td>&nbsp;</td>
+      <td class="firstrow"><img src="plant5.jpg" alt="sansevieria" width="200" height="200" border="0" /></td>
+        </tr>
+    <tr>
+          <td class="price" >
+            <details>
+              <summary>Snake Plant</summary>
+                <p>This carefree, tough succulent grows almost anywhere. Snake plant (Sansevieria spp.) tolerates neglect but responds nicely to good care.</p>
+          </details>
+          <br>
+      Price: RM80 | Order No:P05</td>
+      <td>&nbsp;</td>
+       <td class="price" >
+        <details>
+              <summary>Cast-Iron Plant</summary>
+                <p>Slow-growing cast-iron plant (Aspidistra elatior) lives up to its name. It's almost indestructible, withstanding neglect, low light, low humidity and a wide range of temperatures -- perfect for a dark corner. Start with large plants since plants grow slowly.</p>
+          </details>
+          <br>
+      Price: RM20 | Order No:P06</td>
+     <td>&nbsp;</td>
+       <td class="price" >
+        <details>
+              <summary>Christmas Cactus</summary>
+                <p>One of many types of easy-care cactus, Christmas cactus (Schlumbergera x buckleyi) offers a graceful arching appearance, with long segmented stems and whorls of satiny flowers in lilac, deep rose, salmon, red-orange or white. </p>
+          </details>
+          <br>
+      Price: RM100 | Order No:P07</td>
+     <td>&nbsp;</td>
+       <td class="price" >  
+        <details>
+              <summary>Money Plant</summary>
+                <p>Glossy green leaves spread out from an upright woody plant that's available as a single-trunk tree or multistem shrub.</p>
+          </details>
+          <br>
+      Price: RM80 | Order No:P08</td>
+        </tr>
+      </table>
+</body>
+</html>
+
